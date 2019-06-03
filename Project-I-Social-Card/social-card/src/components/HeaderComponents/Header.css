@@ -1,8 +1,12 @@
-.container {
-    width: 700px;
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    height: 90px;
+    border: 1px solid rgb(179, 3, 3);
 }
 
-img {
+.head img {
     width: 60px;
     height: 60px;
     margin-right: 5px;
@@ -12,16 +16,4 @@ img {
     display: flex;
     justify-content: space-between;
     width: 310px;
-}
-
-.head {
-    display: flex;
-    justify-content: space-between;
-    padding: 2px;
-    height: 90px;
-    border: 1px solid rgb(179, 3, 3);
-}
-
-.pale {
-    color: gray;
 }
