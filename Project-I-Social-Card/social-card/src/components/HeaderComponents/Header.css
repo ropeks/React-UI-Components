@@ -1,1 +1,26 @@
-/* All styles for your header Components live here */
+.container {
+    width: 700px;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    margin-right: 5px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    width: 310px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(179, 3, 3);
+    padding: 2px;
+}
+
+.pale {
+    color: gray;
+}
