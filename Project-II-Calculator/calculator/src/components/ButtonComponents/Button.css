@@ -16,18 +16,23 @@
 }
 
 .btn {
-    width: 96px;
-    height: 96px;
-    border: 2px solid gray;
+    width: 98px;
+    height: 98px;
+    border: 1px solid gray;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(0, 0, 0, 0.3)
 }
 
 .btn span {
     display: flex;
     justify-content: center;
-    padding-top: 5px;
+    padding-top: 7px;
 }
 
 .btn2 {
-    width: 296px;
-    height: 96px;
+    width: 298px;
+    height: 98px;
 }
