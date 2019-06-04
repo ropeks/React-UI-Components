@@ -1,1 +1,19 @@
-/* All styles for your header Components live here */
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    height: 90px;
+    border: 1px solid rgb(179, 3, 3);
+}
+
+.head img {
+    width: 60px;
+    height: 60px;
+    margin-right: 5px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    width: 310px;
+}

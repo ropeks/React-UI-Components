@@ -1,0 +1,13 @@
+.display {
+    display: flex;
+    justify-content: flex-end;
+    width: 400px;
+    height: 100px;
+    background-color: black;
+}
+
+.display span {
+    font-size: 80px;
+    margin: 2px 25px 0 0;
+    color: white;
+}
